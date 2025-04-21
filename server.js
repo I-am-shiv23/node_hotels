@@ -13,7 +13,7 @@ app.get('/', function(req, res){
 });
 
 
-const personRoutes = require('./routes/personRoutes');
+const personRoutes = require('./routes/personRoutes');// Import the person routes
 const menuItemRoutes = require('./routes/menuItemRoutes'); 
 app.use('/person', personRoutes);
 app.use('/menu', menuItemRoutes); // Use the menu item routes
